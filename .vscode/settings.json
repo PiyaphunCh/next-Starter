@@ -1,0 +1,60 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    // Set the default
+    // Enable per-language
+    "[php]": {
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": { // for .tsx files
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.run": "onSave",
+    "eslint.alwaysShowStatus": true,
+    "eslint.debug": true,
+    "standard.nodePath": "",
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "standard.workingDirectories": [],
+    "standard.options": {},
+    "debug.javascript.pickAndAttachOptions": {},
+    "beautify.config": "",
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "standard.autoFixOnSave": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "html.format.extraLiners": "",
+    "html.format.contentUnformatted": "",
+    "dotnetAcquisitionExtension.existingDotnetPath": [],
+    "standard.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+            "autoFix": true
+        }
+    ],
+    "standard.options": {
+        "plugins": [
+            "html"
+        ]
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.indentSize": "tabSize"
+}
